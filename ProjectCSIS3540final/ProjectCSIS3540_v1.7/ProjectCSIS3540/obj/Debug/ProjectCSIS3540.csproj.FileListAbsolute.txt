@@ -1,0 +1,189 @@
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Desktop\ProjectCSIS3540\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300232986\Desktop\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.1\ProjectCSIS3540_v1.1\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.2\ProjectCSIS3540_v1.2\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.3\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckOut.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckOut.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\300248523\Downloads\ProjectCSIS3540_v1.6\ProjectCSIS3540_v1.5_CheckInMerged\ProjectCSIS3540_v1.4\ProjectCSIS3540_v1.3\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckOut.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540_v1.7\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckOut.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\susu8_000\Desktop\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckOut.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CustomerAdd.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductAdd.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\susu8_000\Desktop\csis3540(2)\project\final csis3540 project\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe.config
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.exe
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\bin\Debug\ProjectCSIS3540.pdb
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csprojResolveAssemblyReference.cache
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckIn.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckOut.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.CheckSpace.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Customers.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Form1.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.MainPage.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.ProductsSearch.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.Properties.Resources.resources
+C:\Users\susu8_000\Desktop\Intership\PublicStorage\ProjectCSIS3540final\ProjectCSIS3540_v1.7\ProjectCSIS3540\obj\Debug\ProjectCSIS3540.csproj.GenerateResource.Cache
