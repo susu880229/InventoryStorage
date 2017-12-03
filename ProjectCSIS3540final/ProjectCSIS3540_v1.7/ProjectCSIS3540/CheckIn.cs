@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 //using Sql.Data.SqlClient;
 using System.Data.SqlClient;
+using System.Globalization;
 
 namespace ProjectCSIS3540
 {
@@ -42,7 +43,7 @@ namespace ProjectCSIS3540
 
         private void CheckIn_Load(object sender, EventArgs e)
         {
-            
+            WindowState = FormWindowState.Maximized;
             cmd = new SqlCommand();
             mcmd = new SqlDataAdapter();
 
@@ -366,26 +367,70 @@ namespace ProjectCSIS3540
             {
                 
                 cmd.Parameters.Clear();
-
-                if (desCombo.SelectedIndex > -1 && unitCombo.SelectedIndex > -1)
+                //check all the information is complete
+                if (info_complete())
                 {
-                    //insert into Product2 table
-                    insertProduct();
-                    //get the location_id to store and update the location_id weight and volumn info and the product2 location info
-                    locate();
-                    //update the total product storing cost per month
-                    Price = ((decimal)dim / 110592) * Pallet_price + Price;
-                    Price = Math.Round(Price, 2);
+                    //check the volumn of the product is valid
+                    if(decimal.Parse(txtLe.Text) <= 48m && decimal.Parse(txtWi.Text) <= 48m && decimal.Parse(txtHe.Text) <= 48m)
+                    {
+                        //check the check in date is valid
+                        string checkin_date;
+                        checkin_date = txtCI.Text.ToString();
+                        if(date_validation(checkin_date))
+                        {
+                            //insert into Product2 table
+                            insertProduct();
+                            //get the location_id to store and update the location_id weight and volumn info and the product2 location info
+                            locate();
+                            //update the total product storing cost per month
+                            Price = ((decimal)dim / 110592) * Pallet_price + Price;
+                            Price = Math.Round(Price, 2);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Please input valid check in date format!");
+                        }
 
+                    }
+                    else
+                    {
+                        MessageBox.Show("the dimension of the product is out of 48*48*48 inch pallet scope!");
+                    }
+                    
                 }
                 else
                 {
-                    MessageBox.Show("please choose the description and unit");
+                    MessageBox.Show("please fill out all necessary information!");
                 }
 
             }
         }
 
+        //detect the product information is complete
+        private Boolean info_complete()
+        {
+            return desCombo.SelectedIndex > -1 && unitCombo.SelectedIndex > -1
+                && txtNa.Text != String.Empty && txtQu.Text != String.Empty
+                && txtLe.Text != String.Empty && txtWi.Text != String.Empty
+                && txtHe.Text != String.Empty && txtWe.Text != String.Empty
+                && txtCI.Text != String.Empty;
+
+        }
+
+        //detect the check in date is valid format
+        public Boolean date_validation(string date)
+        {
+            
+            DateTime result;
+            if (DateTime.TryParseExact(date,"yyyy-MM-dd",CultureInfo.InvariantCulture,DateTimeStyles.AssumeUniversal,out result))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         //new product info to input
         private void btnNew_Click_1(object sender, EventArgs e)
         {

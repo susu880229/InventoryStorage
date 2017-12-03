@@ -61,7 +61,8 @@ namespace ProjectCSIS3540
 
         private void CheckSpace_Load(object sender, EventArgs e)
         {
-            string instruction = "Select Pallet_id as Pallet_ID, Pallet_capacity as Capacity, Pallet_price as Price, asile_id as Aisle_ID, current_volumn as Volume, current_weight as Weight from Pallet";
+            WindowState = FormWindowState.Maximized;
+            string instruction = "Select * from Location";
             DisplayTables(instruction, dgv, "Storage");
         }
 

@@ -24,7 +24,7 @@ namespace ProjectCSIS3540
 
         private void MainPage_Load(object sender, EventArgs e)
         {
-
+            WindowState = FormWindowState.Maximized;
         }
 
 

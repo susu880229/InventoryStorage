@@ -29,6 +29,7 @@ namespace ProjectCSIS3540
         decimal palletMonth = 0m;
         DateTime checkIn, checkOut;
         TimeSpan difference;
+       
 
         public CheckOut(SqlConnection conn)
         {
@@ -38,6 +39,7 @@ namespace ProjectCSIS3540
 
         private void CheckOut_Load(object sender, EventArgs e)
         {
+            WindowState = FormWindowState.Maximized;
             cmd = new SqlCommand();
             mcmd = new SqlDataAdapter();
         }
@@ -99,46 +101,88 @@ namespace ProjectCSIS3540
         //when the product name and product sort methods combobox changed, rearrange the product info
         private void dg1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            cmd.Parameters.Clear();
+            //cmd.Parameters.Clear();
             string TableName = ((DataTable)dg1.DataSource).TableName;
             if (TableName == "clients")
             {
-                //this line may have problem!
-                cmd.Parameters.Add("@Client_id", SqlDbType.VarChar);
+                
+                if(!cmd.Parameters.Contains("@Client_id"))
+                {
+                    cmd.Parameters.Add("@Client_id", SqlDbType.VarChar);
+                }
                 cmd.Parameters["@Client_id"].Value = dg1.SelectedRows[0].Cells[0].Value.ToString();
-
-
-                string instruction = " select client_id, p.order_id, product_id, description, name, quantity, unit,";
-                instruction += "length, width, height, weight, check_in_date, check_out_date, expire_date, location_id";
-                instruction += " from Orders o ";
-                instruction += " INNER JOIN Product2 p ";
-                instruction += " ON o.order_id = p.order_id ";
-                instruction += " WHERE o.client_id = @Client_id ";
-                //search according to product name
-                if (txtPN.Text.Length > 0)
-                {
-                    cmd.Parameters.AddWithValue("@P_name", txtPN.Text);
-                    instruction += " AND p.name = @P_name";
-                }
-                //order according to user selection
-                if (comOrder.SelectedIndex != -1)
-                {
-                    if (comOrder.SelectedIndex == 0)
-                    {
-                        instruction += " ORDER BY check_in_date ASC";
-                    }
-                    else
-                    {
-                        instruction += " ORDER BY expire_date ASC";
-                    }
-
-                }
-                DisplayTables(instruction, dg1, "products");
+                //search and display products on the datagrid view
+                se_display_product();
             }
             else if (TableName == "products")
             {
+                
                 displayP();
             }
+        }
+
+        //
+        private string default_product()
+        {
+            string instruction = " select client_id, p.order_id, product_id, description, name, quantity, unit,";
+            instruction += "length, width, height, weight, check_in_date, check_out_date, expire_date, location_id";
+            instruction += " from Orders o ";
+            instruction += " INNER JOIN Product2 p ";
+            instruction += " ON o.order_id = p.order_id ";
+            instruction += " WHERE o.client_id = @Client_id ";
+            return instruction;
+        }
+
+        //
+        private string product_byName(string instruction)
+        {
+            if (txtPN.Text.Length > 0)
+            {
+                if (cmd.Parameters.Contains("@P_name"))
+                {
+                    cmd.Parameters["@P_name"].Value = txtPN.Text;
+                }
+                else
+                {
+                    cmd.Parameters.AddWithValue("@P_name", txtPN.Text);
+                }
+                instruction += " AND p.name = @P_name";
+            }
+            return instruction;
+        }
+        //
+        private string product_byDate(string instruction)
+
+        {
+            if (comOrder.SelectedIndex != -1)
+            {
+                if (comOrder.SelectedIndex == 0)
+                {
+                    instruction += " ORDER BY check_in_date ASC";
+                }
+                else
+                {
+                    instruction += " ORDER BY expire_date ASC";
+                }
+
+            }
+            return instruction;
+        }
+        // 
+        private void se_display_product()
+        {
+            
+            //default product search based on client id clicked
+            string instruction = default_product();
+
+            //product search by name (plus)
+            instruction = product_byName(instruction);
+
+            //product search by date (plus)
+            instruction = product_byDate(instruction);
+
+            //display product search result in datagrid view
+            DisplayTables(instruction, dg1, "products");
         }
 
         //check out product when the whole product is checked out
@@ -160,7 +204,8 @@ namespace ProjectCSIS3540
                     upLocation();
                     //calculate price based on the storing time
                     calPrice();
-                    
+                    //refresh the product result
+                    //se_display_product();
                 }
                
                 //con.Close();
@@ -224,6 +269,37 @@ namespace ProjectCSIS3540
             cmd.ExecuteNonQuery();
         }
 
+        //refresh the product when input new date category (check in or expiration)
+        private void comOrder_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string TableName = ((DataTable)dg1.DataSource).TableName;
+            if(TableName == "products")
+            {
+                se_display_product();
+            }
+            else if (TableName == "clients")
+            {
+                MessageBox.Show("please click the desired client first");
+            }
+            
+        }
+
+        //refresh the product when input new product name
+        private void txtPN_TextChanged(object sender, EventArgs e)
+        {
+            string TableName = ((DataTable)dg1.DataSource).TableName;
+            if (TableName == "products")
+            {
+                se_display_product();
+            }
+            else if (TableName == "clients")
+            {
+                MessageBox.Show("please click the desired client first");
+            }
+        }
+
+
+
         //update location table both volumn and weight when the whole product is checked out
         public void upLocation()
         {
@@ -284,21 +360,31 @@ namespace ProjectCSIS3540
 
             if (txtCO.Text.Length > 0 && txtCI.Text.Length > 0)
             {
-                checkIn = DateTime.Parse(txtCI.Text);
-                checkOut = DateTime.Parse(txtCO.Text);
-                difference = checkOut - checkIn;
-                int days = Convert.ToInt32(difference.TotalDays);
-                decimal month = Math.Ceiling(((decimal)days / 30));
-                priceMonth = ((decimal)dim / 110592) * palletMonth;
-                price = Math.Round((priceMonth * month), 2);
-                tax = price * 0.13m;
-                tPrice = Math.Round((price + tax), 2);
+                string checkout_date;
+                checkout_date = txtCO.Text;
+                CheckIn checkin = new CheckIn(con);
+                if (checkin.date_validation(checkout_date))
+                {
+                    checkIn = DateTime.Parse(txtCI.Text);
+                    checkOut = DateTime.Parse(txtCO.Text);
+                    difference = checkOut - checkIn;
+                    int days = Convert.ToInt32(difference.TotalDays);
+                    decimal month = Math.Ceiling(((decimal)days / 30));
+                    priceMonth = ((decimal)dim / 110592) * palletMonth;
+                    //add up checked out products price
+                    price = price + Math.Round((priceMonth * month), 2);
+                    tax = price * 0.13m;
+                    tPrice = Math.Round((price + tax), 2);
 
-                txtPrice.Text = price.ToString();
-                txtTax.Text = tax.ToString();
-                txtTotal.Text = tPrice.ToString();
-                MessageBox.Show(month.ToString());
-
+                    txtPrice.Text = price.ToString();
+                    txtTax.Text = tax.ToString();
+                    txtTotal.Text = tPrice.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Please input valid check out date!");
+                }
+               
             }
             else
             {

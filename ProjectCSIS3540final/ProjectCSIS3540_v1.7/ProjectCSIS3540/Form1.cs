@@ -38,6 +38,7 @@ namespace ProjectCSIS3540
             //dbInfo = new DBConnect();
             //only need to know the connectionstring when connect to the database
             //use @ to make the normally escape sequce letter is ingored such as \
+            WindowState = FormWindowState.Maximized;
             connString = @"Data Source=SUSU\SQLEXPRESS;Initial Catalog=public_storage;Integrated Security=True";
             cmd = new SqlCommand();
             connect();
@@ -109,6 +110,7 @@ namespace ProjectCSIS3540
         public void updateSta()
         {
             //may have problem due to login is boolean in client, and bit in server?
+            cmd.Parameters.Clear();
             string instruction = "update status SET status = @login WHERE id = 1 ";
             cmd.CommandText = instruction;
             cmd.Connection = con;

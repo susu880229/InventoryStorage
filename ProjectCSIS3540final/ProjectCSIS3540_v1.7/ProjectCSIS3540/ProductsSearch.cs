@@ -30,6 +30,7 @@ namespace ProjectCSIS3540
         private void ProductsSearch_Load(object sender, EventArgs e)
         {
             //may have issues for where 1?
+            WindowState = FormWindowState.Maximized;
             string instruction = "SELECT * FROM Product2 ";
             DisplayTables(instruction, dgvPS, "Storage");
             //populate the description list into the combo box

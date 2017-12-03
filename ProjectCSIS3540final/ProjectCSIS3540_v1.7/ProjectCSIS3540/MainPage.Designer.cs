@@ -29,12 +29,9 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnPSearch = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnMainExit = new System.Windows.Forms.Button();
             this.btnMainDC = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCO = new System.Windows.Forms.Button();
             this.btnCI = new System.Windows.Forms.Button();
@@ -58,17 +55,6 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "CS Warehouse";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, -7);
-            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(179, 46);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Products";
-            // 
             // btnPSearch
             // 
             this.btnPSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -81,21 +67,10 @@
             this.btnPSearch.UseVisualStyleBackColor = true;
             this.btnPSearch.Click += new System.EventHandler(this.btnPSearch_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, -7);
-            this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(213, 46);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Customers";
-            // 
             // btnMainExit
             // 
             this.btnMainExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMainExit.Location = new System.Drawing.Point(341, 842);
+            this.btnMainExit.Location = new System.Drawing.Point(434, 842);
             this.btnMainExit.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnMainExit.Name = "btnMainExit";
             this.btnMainExit.Size = new System.Drawing.Size(259, 74);
@@ -116,37 +91,24 @@
             this.btnMainDC.UseVisualStyleBackColor = true;
             this.btnMainDC.Click += new System.EventHandler(this.btnMainDC_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, -7);
-            this.label4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(285, 46);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Storage Space";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnCO);
             this.groupBox1.Controls.Add(this.btnCI);
             this.groupBox1.Controls.Add(this.btnPSearch);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(85, 107);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.groupBox1.Size = new System.Drawing.Size(480, 324);
+            this.groupBox1.Size = new System.Drawing.Size(1066, 472);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-        
+            this.groupBox1.Text = "Products";
             // 
             // btnCO
             // 
             this.btnCO.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCO.Location = new System.Drawing.Point(69, 231);
+            this.btnCO.Location = new System.Drawing.Point(71, 341);
             this.btnCO.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCO.Name = "btnCO";
             this.btnCO.Size = new System.Drawing.Size(339, 74);
@@ -158,7 +120,7 @@
             // btnCI
             // 
             this.btnCI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCI.Location = new System.Drawing.Point(69, 153);
+            this.btnCI.Location = new System.Drawing.Point(69, 210);
             this.btnCI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCI.Name = "btnCI";
             this.btnCI.Size = new System.Drawing.Size(339, 74);
@@ -170,15 +132,14 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(85, 446);
+            this.groupBox2.Location = new System.Drawing.Point(1376, 107);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.groupBox2.Size = new System.Drawing.Size(480, 184);
+            this.groupBox2.Size = new System.Drawing.Size(1066, 184);
             this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Customers";
             // 
             // button1
             // 
@@ -195,15 +156,14 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.btnMainCheck);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Location = new System.Drawing.Point(85, 644);
+            this.groupBox3.Location = new System.Drawing.Point(1376, 395);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.groupBox3.Size = new System.Drawing.Size(480, 184);
+            this.groupBox3.Size = new System.Drawing.Size(1057, 184);
             this.groupBox3.TabIndex = 24;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.groupBox3.Text = "Storage Space";
             // 
             // btnMainCheck
             // 
@@ -221,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(995, 1227);
+            this.ClientSize = new System.Drawing.Size(3037, 1227);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -233,11 +193,8 @@
             this.Text = "MainPage";
             this.Load += new System.EventHandler(this.MainPage_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,12 +203,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnPSearch;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnMainExit;
         private System.Windows.Forms.Button btnMainDC;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;

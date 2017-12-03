@@ -28,6 +28,7 @@ namespace ProjectCSIS3540
 
         private void Customers_Load(object sender, EventArgs e)
         {
+            WindowState = FormWindowState.Maximized;
             string instruction = "Select * from Client2";
             DisplayTables(instruction, dgvPS, "Storage");
         }
