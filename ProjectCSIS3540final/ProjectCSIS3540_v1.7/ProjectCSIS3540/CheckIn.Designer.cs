@@ -31,7 +31,6 @@
             this.OrderData = new System.Windows.Forms.DataGridView();
             this.btnCa = new System.Windows.Forms.Button();
             this.btnRe = new System.Windows.Forms.Button();
-            this.btnDisplay = new System.Windows.Forms.Button();
             this.txtTax = new System.Windows.Forms.TextBox();
             this.txtTp = new System.Windows.Forms.TextBox();
             this.txtPrice = new System.Windows.Forms.TextBox();
@@ -39,6 +38,12 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.Order = new System.Windows.Forms.GroupBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.txtNa = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.unitCombo = new System.Windows.Forms.ComboBox();
@@ -81,12 +86,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.OrderData)).BeginInit();
             this.Order.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -104,7 +104,7 @@
             // 
             // btnCa
             // 
-            this.btnCa.Location = new System.Drawing.Point(1213, 599);
+            this.btnCa.Location = new System.Drawing.Point(644, 608);
             this.btnCa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCa.Name = "btnCa";
             this.btnCa.Size = new System.Drawing.Size(171, 57);
@@ -123,17 +123,6 @@
             this.btnRe.Text = "Reset";
             this.btnRe.UseVisualStyleBackColor = true;
             this.btnRe.Click += new System.EventHandler(this.btnRe_Click);
-            // 
-            // btnDisplay
-            // 
-            this.btnDisplay.Location = new System.Drawing.Point(926, 599);
-            this.btnDisplay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnDisplay.Name = "btnDisplay";
-            this.btnDisplay.Size = new System.Drawing.Size(171, 57);
-            this.btnDisplay.TabIndex = 22;
-            this.btnDisplay.Text = "Display";
-            this.btnDisplay.UseVisualStyleBackColor = true;
-            this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click_1);
             // 
             // txtTax
             // 
@@ -232,6 +221,60 @@
             this.Order.TabIndex = 15;
             this.Order.TabStop = false;
             this.Order.Text = "Check In ";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(484, 478);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(161, 32);
+            this.label26.TabIndex = 38;
+            this.label26.Text = "0000-00-00";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(1363, 469);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(167, 32);
+            this.label25.TabIndex = 37;
+            this.label25.Text = "yyyy-mm-dd";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(1363, 399);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(38, 32);
+            this.label24.TabIndex = 36;
+            this.label24.Text = "lb";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(1357, 297);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(68, 32);
+            this.label23.TabIndex = 35;
+            this.label23.Text = "inch";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(484, 303);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(68, 32);
+            this.label22.TabIndex = 34;
+            this.label22.Text = "inch";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(484, 391);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(68, 32);
+            this.label21.TabIndex = 33;
+            this.label21.Text = "inch";
             // 
             // txtNa
             // 
@@ -647,70 +690,25 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // label21
+            // label27
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(484, 391);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(68, 32);
-            this.label21.TabIndex = 33;
-            this.label21.Text = "inch";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(484, 303);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(68, 32);
-            this.label22.TabIndex = 34;
-            this.label22.Text = "inch";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(1357, 297);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(68, 32);
-            this.label23.TabIndex = 35;
-            this.label23.Text = "inch";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(1363, 399);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(38, 32);
-            this.label24.TabIndex = 36;
-            this.label24.Text = "lb";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(1363, 469);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(167, 32);
-            this.label25.TabIndex = 37;
-            this.label25.Text = "yyyy-mm-dd";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(484, 478);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(161, 32);
-            this.label26.TabIndex = 38;
-            this.label26.Text = "0000-00-00";
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(536, 484);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(142, 32);
+            this.label27.TabIndex = 27;
+            this.label27.Text = "per month";
             // 
             // CheckIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(3184, 1728);
+            this.Controls.Add(this.label27);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.OrderData);
             this.Controls.Add(this.btnCa);
             this.Controls.Add(this.btnRe);
-            this.Controls.Add(this.btnDisplay);
             this.Controls.Add(this.txtTax);
             this.Controls.Add(this.txtTp);
             this.Controls.Add(this.txtPrice);
@@ -738,7 +736,6 @@
         private System.Windows.Forms.DataGridView OrderData;
         private System.Windows.Forms.Button btnCa;
         private System.Windows.Forms.Button btnRe;
-        private System.Windows.Forms.Button btnDisplay;
         private System.Windows.Forms.TextBox txtTax;
         private System.Windows.Forms.TextBox txtTp;
         private System.Windows.Forms.TextBox txtPrice;
@@ -794,5 +791,6 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label27;
     }
 }

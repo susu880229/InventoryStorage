@@ -18,11 +18,12 @@ namespace ProjectCSIS3540
         SqlConnection con = null;
         SqlDataAdapter mcmd;
         SqlCommand cmd;
-        int product_id, location_id;
+        int product_id, location_id, client_id;
         decimal length, width, height;
-        int Rweight, quantity, weight;
+        int weight;
         int dim;
         decimal priceMonth = 0m;
+        //price for all the products checkout 
         decimal price = 0m;
         decimal tax = 0m;
         decimal tPrice = 0m;
@@ -90,7 +91,7 @@ namespace ProjectCSIS3540
             txtCO.Text = dg1.CurrentRow.Cells[12].Value.ToString();
             txtEp.Text = dg1.CurrentRow.Cells[13].Value.ToString();
             txtLo.Text = dg1.CurrentRow.Cells[14].Value.ToString();
-
+                
 
         }
 
@@ -101,23 +102,28 @@ namespace ProjectCSIS3540
         //when the product name and product sort methods combobox changed, rearrange the product info
         private void dg1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            //cmd.Parameters.Clear();
+            btnCheckOut.Enabled = true;
             string TableName = ((DataTable)dg1.DataSource).TableName;
             if (TableName == "clients")
             {
                 
-                if(!cmd.Parameters.Contains("@Client_id"))
-                {
-                    cmd.Parameters.Add("@Client_id", SqlDbType.VarChar);
-                }
-                cmd.Parameters["@Client_id"].Value = dg1.SelectedRows[0].Cells[0].Value.ToString();
+                client_id = int.Parse(dg1.SelectedRows[0].Cells[0].Value.ToString());
                 //search and display products on the datagrid view
                 se_display_product();
             }
             else if (TableName == "products")
             {
-                
-                displayP();
+                //check out date is not empty
+                if(dg1.CurrentRow.Cells[12].Value.ToString() != String.Empty)
+                {
+                    MessageBox.Show("this product is already checked out!");
+                    btnCheckOut.Enabled = false;
+                }
+                else
+                {
+                    displayP();
+                }
+                   
             }
         }
 
@@ -125,7 +131,7 @@ namespace ProjectCSIS3540
         private string default_product()
         {
             string instruction = " select client_id, p.order_id, product_id, description, name, quantity, unit,";
-            instruction += "length, width, height, weight, check_in_date, check_out_date, expire_date, location_id";
+            instruction += "length, width, height, weight, check_in_date, check_out_date, expire_date, location_id, bill ";
             instruction += " from Orders o ";
             instruction += " INNER JOIN Product2 p ";
             instruction += " ON o.order_id = p.order_id ";
@@ -171,7 +177,13 @@ namespace ProjectCSIS3540
         // 
         private void se_display_product()
         {
-            
+            //add client_id if not exitst
+            if (!cmd.Parameters.Contains("@Client_id"))
+            {
+                cmd.Parameters.Add("@Client_id", SqlDbType.Int);
+            }
+            cmd.Parameters["@Client_id"].Value = client_id;
+
             //default product search based on client id clicked
             string instruction = default_product();
 
@@ -193,81 +205,24 @@ namespace ProjectCSIS3540
             {
                 //con.Open();
                 cmd.Parameters.Clear();
+                //the product has not been check out
 
-                if (txtPID.Text.Length > 0 && txtLo.Text.Length > 0 )
+                if (txtPID.Text.Length > 0 && txtLo.Text.Length > 0)
                 {
                     product_id = int.Parse(txtPID.Text);
                     location_id = int.Parse(txtLo.Text);
-                    //delete product row
-                    dePro();
+
                     //update pallet current_volumn and current_weight
                     upLocation();
                     //calculate price based on the storing time
                     calPrice();
                     //refresh the product result
-                    //se_display_product();
+                    se_display_product();
                 }
-               
-                //con.Close();
+                
             }
         }
 
-        //update product and pallet current weight when only partial product is checked out
-        private void btnUp_Click(object sender, EventArgs e)
-        {
-            txtRw.Enabled = true;
-            txtQu.Enabled = true;
-            txtWe.Enabled = true;
-            cmd.Parameters.Clear();
-
-            if (con != null)
-            {
-
-                if (txtPID.Text.Length > 0 && txtLo.Text.Length > 0 && txtQu.Text.Length > 0 && txtWe.Text.Length > 0 && txtRw.Text.Length > 0)
-                {
-                    product_id = int.Parse(txtPID.Text);
-                    location_id = int.Parse(txtLo.Text);
-                    quantity = int.Parse(txtQu.Text);
-                    weight = Decimal.ToInt32(Convert.ToDecimal(txtWe.Text));
-                    Rweight = Decimal.ToInt32(Convert.ToDecimal(txtRw.Text));
-                    //update new quantity and weight information according to user change on textbox
-                    upPro();
-                    //update pallet current_weight information
-                    upLocation2();
-                    //calculate the checked out products storing cost
-                    //need to improve when partial goods are checked out, how to calculate the price
-                    //and update the new location info
-                    //calPrice();
-
-                }
-
-            }
-        }
-
-
-        //delete product info when whole product is checked out
-        public void dePro()
-        {
-            string instruction = "delete from Product2 where product_id = @p_id ";
-            cmd.Parameters.AddWithValue("@p_id", product_id);
-            cmd.CommandText = instruction;
-            cmd.Connection = con;
-            cmd.ExecuteNonQuery();
-
-        }
-
-        //update product after partial product is checked out
-        public void upPro()
-        {
-            string instruction = " update Product2 set quantity = @quan, weight = @weig ";
-            instruction += " where product_id = @pro_id ";
-            cmd.Parameters.AddWithValue("@quan", quantity);
-            cmd.Parameters.AddWithValue("@weig", weight);
-            cmd.Parameters.AddWithValue("@pro_id", product_id);
-            cmd.CommandText = instruction;
-            cmd.Connection = con;
-            cmd.ExecuteNonQuery();
-        }
 
         //refresh the product when input new date category (check in or expiration)
         private void comOrder_SelectedIndexChanged(object sender, EventArgs e)
@@ -326,18 +281,7 @@ namespace ProjectCSIS3540
 
         }
 
-        //update only weight when only partical product is checked out
-        public void upLocation2()
-        {
-            string instruction = "update Location set current_weight = current_weight - @weigg ";
-            instruction += " where location_id = @location_id ";
-            cmd.Parameters.AddWithValue("@location_id", location_id);
-            cmd.Parameters.AddWithValue("@weigg", Rweight);
-            cmd.CommandText = instruction;
-            cmd.Connection = con;
-            cmd.ExecuteNonQuery();
-
-        }
+       
 
         //find the pallet_month price from Pallet and location table
         public void getLoPrice()
@@ -360,6 +304,8 @@ namespace ProjectCSIS3540
 
             if (txtCO.Text.Length > 0 && txtCI.Text.Length > 0)
             {
+                //check out price for each product
+                decimal unit_price = 0.00m;
                 string checkout_date;
                 checkout_date = txtCO.Text;
                 CheckIn checkin = new CheckIn(con);
@@ -371,11 +317,13 @@ namespace ProjectCSIS3540
                     int days = Convert.ToInt32(difference.TotalDays);
                     decimal month = Math.Ceiling(((decimal)days / 30));
                     priceMonth = ((decimal)dim / 110592) * palletMonth;
-                    //add up checked out products price
-                    price = price + Math.Round((priceMonth * month), 2);
+                    unit_price = Math.Round((priceMonth * month), 2);
+                    //update bill and check out date into product table
+                    update_product(unit_price, checkout_date);
+                    //calculate the add up price when multiple products checked out
+                    price = price + unit_price;
                     tax = price * 0.13m;
                     tPrice = Math.Round((price + tax), 2);
-
                     txtPrice.Text = price.ToString();
                     txtTax.Text = tax.ToString();
                     txtTotal.Text = tPrice.ToString();
@@ -393,6 +341,18 @@ namespace ProjectCSIS3540
 
         }
 
+        //update check out price into product table
+        private void update_product(decimal unit_price, string checkout_date)
+        {
+            string instruction = " update Product2 set bill = @bill, check_out_date = @check_out ";
+            instruction += " where product_id = @pro_id ";
+            cmd.Parameters.AddWithValue("@bill", unit_price);
+            cmd.Parameters.AddWithValue("@pro_id", product_id);
+            cmd.Parameters.AddWithValue("@check_out", checkout_date);
+            cmd.CommandText = instruction;
+            cmd.Connection = con;
+            cmd.ExecuteNonQuery();
+        }
        
         //reset and clear any information
         private void button1_Click(object sender, EventArgs e)
@@ -404,8 +364,6 @@ namespace ProjectCSIS3540
             width = 0;
             height = 0;
             weight = 0;
-            Rweight = 0;
-            quantity = 0;
             dim = 0;
             priceMonth = 0.00m;
             price = 0m;
@@ -435,7 +393,6 @@ namespace ProjectCSIS3540
             txtCI.Clear();
             txtCO.Clear();
             txtLo.Clear();
-            txtRw.Clear();
             dg1.DataSource = null;
 
         }

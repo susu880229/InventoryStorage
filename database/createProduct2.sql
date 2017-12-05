@@ -15,6 +15,7 @@ weight decimal(5,2),
 expire_date date,
 order_id int,
 location_id int,
+bill decimal(6,2) default 0.00,
 primary key(product_id),
 foreign key (order_id) references Orders (order_id),
 foreign key (location_id) references Location (location_id)

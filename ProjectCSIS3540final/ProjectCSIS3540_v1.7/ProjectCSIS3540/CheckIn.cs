@@ -343,6 +343,11 @@ namespace ProjectCSIS3540
             if (con != null)
             {
                 //con.Open();
+                //clean all the information except the client info
+                clear_product();
+                clear_price();
+                clear_view();
+
                 cmd.Parameters.Clear();
                 string instruction = "INSERT INTO Orders(client_id) ";
                 instruction += " output INSERTED.order_id ";
@@ -385,6 +390,8 @@ namespace ProjectCSIS3540
                             //update the total product storing cost per month
                             Price = ((decimal)dim / 110592) * Pallet_price + Price;
                             Price = Math.Round(Price, 2);
+                            //display the product information and bill information
+                            display();
                         }
                         else
                         {
@@ -434,29 +441,13 @@ namespace ProjectCSIS3540
         //new product info to input
         private void btnNew_Click_1(object sender, EventArgs e)
         {
-            desCombo.SelectedIndex = -1;
-            unitCombo.SelectedIndex = -1;
-            txtQu.Clear();
-            txtLe.Clear();
-            txtWi.Clear();
-            txtHe.Clear();
-            txtWe.Clear();
-            txtEp.Clear();
-            txtCI.Clear();
-            txtPID.Clear();
-            txtNa.Clear();
-            product_id = 0;
-            dim = 0;
-            aisleno = 0;
-            weight = 0;
-            pallet_capa = 0;
-            c_vol = 0;
-            c_wei = 0;
-            location_id = 0;
-            Pallet_price = 0.00m;
+            clear_product();
+            txtOID.Text = order_id.ToString();
+            //add new product will show new price 
+            clear_price();
         }
 
-        private void btnDisplay_Click_1(object sender, EventArgs e)
+        private void display()
         {
             if (con != null)
             {
@@ -493,6 +484,30 @@ namespace ProjectCSIS3540
         //reset all the info to start a new customer
         private void btnRe_Click(object sender, EventArgs e)
         {
+            clear_product();
+
+            clear_client();
+
+            clear_price();
+
+            clear_view();
+
+            btnSr.Enabled = true;
+            btnAdd.Enabled = true;
+        }
+
+        private void clear_client()
+        {
+            //clear client information
+            txtID.Clear();
+            txtN.Clear();
+            txtE.Clear();
+            txtAd.Clear();
+            txtP.Clear();
+        }
+
+        private void clear_product()
+        {
             desCombo.SelectedIndex = -1;
             unitCombo.SelectedIndex = -1;
             txtQu.Clear();
@@ -513,19 +528,21 @@ namespace ProjectCSIS3540
             c_vol = 0;
             c_wei = 0;
             location_id = 0;
+        }
+
+        private void clear_price()
+        {
+            Price = 0.00m;
             Pallet_price = 0.00m;
-            txtID.Clear();
-            txtN.Clear();
-            txtE.Clear();
-            txtAd.Clear();
-            txtP.Clear();
             txtPrice.Clear();
             txtTax.Clear();
             txtTp.Clear();
+        }
+
+        private void clear_view()
+        {
             OrderData.DataSource = null;
             OrderData.Rows.Clear();
-            btnSr.Enabled = true;
-            btnAdd.Enabled = true;
         }
 
         private void btnBack_Click(object sender, EventArgs e)

@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtRw = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
             this.comOrder = new System.Windows.Forms.ComboBox();
             this.txtPN = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -37,7 +35,6 @@
             this.txtCO = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnUp = new System.Windows.Forms.Button();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.txtTax = new System.Windows.Forms.TextBox();
             this.txtPrice = new System.Windows.Forms.TextBox();
@@ -83,24 +80,6 @@
             this.Customer.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // txtRw
-            // 
-            this.txtRw.Enabled = false;
-            this.txtRw.Location = new System.Drawing.Point(1406, 708);
-            this.txtRw.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtRw.Name = "txtRw";
-            this.txtRw.Size = new System.Drawing.Size(279, 38);
-            this.txtRw.TabIndex = 121;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(1052, 714);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(233, 32);
-            this.label19.TabIndex = 120;
-            this.label19.Text = "Reduced Weight:";
             // 
             // comOrder
             // 
@@ -168,18 +147,6 @@
             this.label6.Size = new System.Drawing.Size(142, 32);
             this.label6.TabIndex = 113;
             this.label6.Text = "Check out";
-            // 
-            // btnUp
-            // 
-            this.btnUp.Enabled = false;
-            this.btnUp.Location = new System.Drawing.Point(419, 735);
-            this.btnUp.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(260, 64);
-            this.btnUp.TabIndex = 112;
-            this.btnUp.Text = "Check Out Partial";
-            this.btnUp.UseVisualStyleBackColor = true;
-            this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
             // txtTotal
             // 
@@ -530,10 +497,7 @@
             // 
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txtRw);
             this.groupBox1.Controls.Add(this.txtNa);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.btnUp);
             this.groupBox1.Controls.Add(this.txtCO);
             this.groupBox1.Controls.Add(this.txtPID);
             this.groupBox1.Controls.Add(this.btnCheckOut);
@@ -624,9 +588,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtRw;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox comOrder;
         private System.Windows.Forms.TextBox txtPN;
         private System.Windows.Forms.Label label18;
@@ -634,7 +595,6 @@
         private System.Windows.Forms.TextBox txtCO;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.TextBox txtTax;
         private System.Windows.Forms.TextBox txtPrice;
